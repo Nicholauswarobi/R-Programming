@@ -1,3 +1,5 @@
+# This code creates a 2D array with two vectors and prints the result.
+# Creating two vectors
 vector1 <- c(5, 8, 11)
 vector2 <- c(12, 45, 23, 78, 7, 4)
 
