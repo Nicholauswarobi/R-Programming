@@ -1,11 +1,11 @@
 # Creating vectors
 employees_id <-(1:3)
 employees_name <- c("Nungu", "Warobi", "Wandwi")
-start_date <- as.Date(c("12-20-2000", "07-12-2012", "09-27-2019"))
+start_date <- as.Date(c("12-01-2000", "07-12-2012", "09-03-2019"))
 salary <- c(2000, 1200, 3000)
 
 # Creating Data frame employees_data
-employee_data <- data.frame(employees_id, employees_name, start_date, salary)
+employees_data <- data.frame(employees_id, employees_name, start_date, salary)
 # Print original data frame 
 print(employees_data)
 
